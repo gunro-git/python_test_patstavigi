@@ -1,5 +1,6 @@
 import pytest
 from src.dalijums import dali
+
 def test_dalijums_ar_0(a,b):
     assert dali(0,1) == 0
     assert dali(1,0) == 0
